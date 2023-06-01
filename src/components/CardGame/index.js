@@ -7,5 +7,4 @@ function CardGame() {
         </article>
     `;
 }
-
 export default CardGame;
