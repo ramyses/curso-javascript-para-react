@@ -6,13 +6,12 @@ import PlayerName from './src/components/PlayerName'
 import ScoreBoard  from './src/objects/ScoreBoard'
 
 const $root = document.querySelector("#root")
-const $htmlBoardGame = BoardGame(6)
-const $htmlPlayerName = PlayerName();
+
 
 $root.insertAdjacentHTML(
     "beforeend", 
     `
-    {ScoreBoard()}
+    ${ScoreBoard()}
     ${BoardGame(6)}
     `
 );
