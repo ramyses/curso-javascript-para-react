@@ -1,7 +1,9 @@
-function ArrowDown(){
-    return /* html */ `
-        <img src="images/ArrowDown.png" alt="icone de uma seta para baixo">
-    `
-}
+import './styles.css';
 
-export default ArrowDown
+function ArrowDown(){
+    return /* html */`
+    <img src="src/components/images/IconArrowDown.png" alt="Icone de uma seta para baixo">
+    `
+};
+
+export default ArrowDown;
